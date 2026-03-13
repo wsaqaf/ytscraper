@@ -72,7 +72,10 @@ else {
     <div class="container-fluid">
         <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-2">
             <h2 class="m-0 text-danger">YouTube Video Viewer</h2>
-            <a href="index.php" class="btn btn-outline-danger btn-sm">Upload New File</a>
+            <div>
+                <a href="https://github.com/wsaqaf/ytscraper" target="_blank" class="btn btn-outline-dark btn-sm me-2">GitHub</a>
+                <a href="index.php" class="btn btn-outline-danger btn-sm">Upload New File</a>
+            </div>
         </div>
 
         <!-- file selector -->

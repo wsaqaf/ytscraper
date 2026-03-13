@@ -104,7 +104,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_FILES["fileToUpload"])) {
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
             <h2 class="m-0 text-danger">YouTube Scraper</h2>
-            <a href="index.php" class="btn btn-outline-secondary btn-sm">Refresh</a>
+            <div>
+                <a href="https://github.com/wsaqaf/ytscraper" target="_blank" class="btn btn-outline-dark btn-sm mr-2">GitHub</a>
+                <a href="index.php" class="btn btn-outline-secondary btn-sm">Refresh</a>
+            </div>
         </div>
 
         <p class="lead text-center mb-4">Convert YouTube HAR files to Video data CSVs.</p>
