@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ytscraper:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - ./UPLOAD_FOLDER:/var/www/html/UPLOAD_FOLDER
+    restart: always

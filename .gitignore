@@ -1,0 +1,6 @@
+.DS_Store
+UPLOAD_FOLDER/*
+!UPLOAD_FOLDER/.gitkeep
+har_files/*
+ytscraper.zip
+php.ini
