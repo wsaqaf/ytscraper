@@ -56,3 +56,7 @@ If you prefer to run it on a local PHP server:
 ## License
 
 MIT
+
+## Author
+**Dr. Walid Al-Saqaf**  
+Email: walid[@]al-saqaf.se
